@@ -44,22 +44,8 @@
     }
 </script>
 
-<style>
-    .botao {
-        display: inline-block;
-        padding: 10px;
-        border-radius: 3px;
-        margin: 10px;
-        font-size: 1.2em;
-    }
+<style lang="sass" >
 
-    .botao-perigo {
-        background: firebrick;
-        color: white;
-    }
+   @import './Botao.scss';
 
-    .botao-padrao {
-        background: darkcyan;
-        color: white;
-    }
 </style>
